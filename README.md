@@ -1,2 +1,2 @@
 # sleekcuttings
-Online fashion store
+Portfolio Website 
