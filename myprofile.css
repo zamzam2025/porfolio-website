@@ -1,0 +1,122 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+
+.sidebar {
+     position:fixed;
+     left: 0;
+     width: 250;
+     height: 100%;
+     background-color:#133431;
+     
+
+}
+
+img {
+    margin-top: 30%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 50px;
+    }
+nav ul {
+    text-align: center;
+    margin: -10%;
+    }
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
+
+nav li {
+display: block;
+line-height: 30px;
+}
+
+a.active, a:hover{
+    color:rgb(50, 50, 212);
+    transition: .5s;
+    }
+
+
+/** ...  The main content section...**/  
+
+.container {
+    background: rgba(2, 65, 39, 0.379);
+    background-position: center;
+    background-size: cover;
+    height: 100lvh;
+    margin-left: 80px ;  
+    padding-left: 50px;
+    
+}
+
+ .name  {
+    padding-top: 10%;
+    color:white;
+    font-size:50px;
+    font-family:Imprint MT Shadow ;
+    text-transform: capitalize;
+    font-weight: 100;
+ }
+  .mail{
+    color: rgb(200, 82, 8);
+  }
+
+
+/* ----- sections of the page  ----*/
+
+.about {
+   
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-width: 10px;
+}
+
+.projects {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-width: 10px;
+}
+
+#papers  {
+
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-width: 10px;
+
+}
+.essays {
+
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-width: 10px;
+    
+}
+
+
+
+/*-- Social Media --*/
+
+  /* Facebook */
+  .fab fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fab fa-twitter  {
+    background: #55ACEE;
+    color: white;
+  }
+
+
